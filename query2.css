@@ -1,0 +1,130 @@
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+
+
+.logo{
+
+align-items: center;
+justify-content: center;
+margin-left: 120px;
+}
+
+
+.wrap img {
+
+width: 126%;
+
+}
+
+.menu__header h2{
+
+    margin-bottom: 85px;
+}
+
+.menu__section .menu__card{
+
+ width: 90%;
+ font-weight: 400;
+
+}
+
+
+
+ .menu__content{
+
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    margin-top: 90px;
+    
+    
+}
+    
+
+.menu__subtitle h4{
+
+    font-size: larger;
+    margin-left: 70px;
+    width: 3.5em;
+}
+    
+
+footer {
+    display: flex;
+    width: 120%;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 16.5em;
+    gap: 6em;
+}
+
+a{
+    font-size: large;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 10px) and (max-width: 450px){
+
+
+.wrap{
+
+
+    width: 700px;
+    position: fixed;
+}
+
+
+footer {
+
+    
+    
+   
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+
+
+.center-content .logo{
+
+    margin-left: 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.fa-solid.fa-arrow-left{
+
+
+    left: -2em;
+    position: relative;
+    font-size: 17px;
+
+} 
+
+
+.heart-section {
+    margin-top: -7em;
+}
+
+
+}
